@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wedding Party</title>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="party.css">
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script src="party.js"></script> 
+	<script type="text/javascript">
+        $(function() {
+			$("div#contentHolder img").click(function(evt) {
+				var x = $(this).attr("id");
+				var divCurr = "div#" + x;
+				
+				$("#framediv div").css( "visibility", "hidden" );
+				//$("#mainDisplay img").attr("src", iconHigh + x + ".png");
+				$(divCurr).css( "visibility", "visible").animate({ opacity: 0.8 }, 1000);
+				
+				return false;
+				
+			});
+			setTimeout(function() {startShow()}, 1000);
+			
+	
+		});
+	
+    </script>
+	
+</head>
+<body>
+<div id="wrapper">
+	<nav id="navTop">
+		<ul id="topMenu">
+			<li><div class="hover"><span class="hoverText">Location</span><a href="directions.html"><img src="images/directionstop.png"></a></div>
+			<li><div class="hover"><span class="hoverText">Our Story</span><a href="ourstory.html"><img src="images/ourstorytop.png"></a>
+			<li><div class="hover"><span class="hoverText">Day of the Wedding</span><a href="dayofthewedding.html"><img src="images/dayoftheweddingtop.png"></a>
+			<li><div class="hover"><span class="hoverText">Lodging</span><a href="lodging.html"><img src="images/lodgingtop.png"></a>
+			<li><div class="hover"><span class="hoverText">RSVP</span><a href="rsvp.html"><img src="images/rsvptop.png"></a>
+			<li><div class="hover"><span class="hoverText">Wedding Party</span><a href="party.html"><img src="images/partytop.png"></a>
+			<li><div class="hover"><span class="hoverText">Home</span><a href="index.html"><img src="images/hometop.png"></a>
+			
+		</ul>
+	</nav>
+	<div id="content">
+		
+		<div id="contentHolder">
+			<div id="lindsay"><img id="lindsaytext" src="images/partylindsay.png" /></div>
+			<div id="katie"><img id="katietext" src="images/partykatie.png" /></div>
+			<div id="steph"><img id="stephtext" src="images/partysteph.png" /></div>
+			<div id="shawna"><img id="shawnatext" src="images/partyshawna.png" /></div>
+			<div id="wendy"><img id="wendytext" src="images/partywendy.png" /></div>
+			
+			
+			<div id="john"><img id="johntext" src="images/partybrady.png" /></div>
+			<div id="jeff"><img id="jefftext" src="images/partybrady.png" /></div>
+			<div id="swoop"><img id="swooptext" src="images/partybrady.png" /></div>
+			<div id="barrett"><img id="barretttext" src="images/partybrady.png" /></div>
+			<div id="wade"><img id="wadetext" src="images/partybrady.png" /></div>
+			
+			<div id="framediv">
+			<div id="frameintro" class="frametext">Click on a picture<br />for more info<br />on any of these<br />beautiful people</div>
+			<div id="lindsaytext" class="frametext">
+				<img src="images/partylindsay.png" height="200px" /><br />
+				Lindsay Newton<br />
+				Maid of Honor
+			</div>
+			<div id="katietext" class="frametext">
+				<img src="images/partykatie.png" height="200px" /><br />
+				Katie Tankersley<br />
+				Bridesmaid
+			</div>
+			<div id="stephtext" class="frametext">
+			<img src="images/partysteph.png" height="200px" /><br />
+				Stephanie Lowe<br />
+				Bridesmaid
+			</div>
+			<div id="shawnatext" class="frametext">
+				<img src="images/partyshawna.png" height="200px" /><br />
+				Shawna Waldrip<br />
+				Bridesmaid
+			</div>
+			<div id="wendytext" class="frametext">
+				<img src="images/partywendy.png" height="200px" /><br />
+				Wendy Kintner<br />
+				Bridesmaid
+			</div>
+			
+			
+			<div id="johntext" class="frametext">
+				<img src="images/partybrady.png" height="200px" /><br />
+				Brady Lewis<br />
+				King of Awesome
+			</div>
+			<div id="jefftext" class="frametext">
+				<img src="images/partybrady.png" height="200px" /><br />
+				Brady Lewis<br />
+				King of Awesome
+			</div>
+			<div id="swooptext" class="frametext">
+				<img src="images/partybrady.png" height="200px" /><br />
+				Brady Lewis<br />
+				King of Awesome
+			</div>
+			<div id="barretttext" class="frametext">
+				<img src="images/partybrady.png" height="200px" /><br />
+				Brady Lewis<br />
+				King of Awesome
+			</div>
+			<div id="wadetext" class="frametext">
+				<img src="images/partybrady.png" height="200px" /><br />
+				Brady Lewis<br />
+				King of Awesome
+			</div>
+			
+			</div><!-- framediv -->
+			
+		</div><!-- contentHolder -->
+		
+		
+		
+		<footer>
+			<ul>
+				<li><a href="directions.html">Location</a></li>
+				<li><a href="ourstory.html">Our Story</a></li>
+				<li><a href="dayofthewedding.html">Day of the Wedding</a></li>
+				<li><a href="lodging.html">Lodging</a></li>
+				<li><a href="rsvp.html">RSVP</a></li>
+				<li><a href="party.html">Wedding Party</a></li>
+				<li><a href="index.html">Home</a></li>
+		</footer>
+		
+		
+	</div><!-- content-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- wrapper -->
+ 
+</body>
+</html>

@@ -1,0 +1,335 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("images/sand2.jpg");
+	height: 100%;
+}
+
+div#wrapper {
+	margin: 0 auto;
+	width: 1060px;
+	
+	/*	width: 1280px;
+	min-width: 1260px;*/
+	margin-bottom: 35px;
+	
+}
+
+div#background {
+	height: 910px;
+	width: 1060px;
+	margin: 0 auto;
+	padding: 0px;
+	z-index: -1;
+	background-image: url("images/background1.jpg");
+	pointer-events: none;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	
+	
+	
+}
+
+#background img {
+	border-bottom: 3px solid white;
+}
+
+div#outer {
+	position: relative;
+	/*left: 0px;
+	top: 0px;*/
+	margin: 0 auto;
+	width: 1060px;
+	min-width: 1060px;
+	
+	
+}
+
+nav#topNav {
+	height: 50px;
+	width: 1060px;
+	font-size: 150%;
+	background-image: url("images/sand2.jpg");
+	border-bottom: 2px groove white;
+	text-align: center;
+	color: white;
+	font-family: 'Rock Salt', cursive;
+	letter-spacing: 5px;
+	transition: height 1s, font-size 1s, color 1s;
+	-webkit-transition: height 1s, font-size 1s, color 1s;
+}
+
+nav#topNav:hover {
+	height: 90px;
+	font-size: 250%;
+	color: black;
+}
+
+div#mainDisplay {
+	/*position: absolute;
+	top: 200px;
+	left: 85px;*/
+	float: left;
+}
+
+#mainDisplay div {
+	float: left;
+}
+
+#mainDisplay img {
+	display: block;
+	padding-bottom: 40px;
+}
+
+img#ourstory {
+	margin-left: 30px;
+}
+
+div#header {
+	position: relative;
+	width: 600px;
+	height: 430px;
+	
+	margin: 0 10px;
+	
+	text-align: center;
+	color: white;
+	font-family: 'Rock Salt', cursive;
+	
+}
+
+#header div {
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 200%;
+	width: 580px;
+	height: 380px;
+	visibility: hidden;
+}
+
+#header h2 {
+	font-size: 100%;
+	width: 450px;
+	border-top: 2px solid white;
+	margin: 0 auto;
+	
+	
+	
+}
+
+#header p {
+	font-size: 55%;
+	line-height: 1.5em;
+	
+}
+
+#header h2 a {
+	text-decoration: none;
+	color: white;
+	padding: 0 13px;
+	
+}
+
+#header h2 a:hover {
+	
+	color: yellow;
+}
+
+#header img{
+	margin: 0 0 20px 202px;
+	padding: 5px;
+	width: 150px;
+	height: 150px;
+	border: 5px solid transparent;
+	border-radius: 500px;
+	transition: transform 2s, border 1s;
+	-webkit-transition: -webkit-transform 2s, border 1s;
+}
+
+#header img:hover {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	border: 5px dashed yellow;
+	border-radius: 500px;
+	padding: 5px;
+	
+}
+
+div#intro {
+	font-size: 100%;
+	width: 580px;
+	height: 380px;
+	visibility: visible;
+	color: #05E4F2;
+	-webkit-animation: myfirst 20s infinite; /* Chrome, Safari, Opera */
+	-moz-animation: myfirst 20s infinite; /* Mozilla */
+    animation: myfirst 20s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {color:#1325AC;}
+	2%  {color:#05E4F2;}
+	20%  {color:#05E4F2;}
+    40%  {color:#F12C41;}
+    60%  {color:#1EBF16;}
+    80%  {color:#ffffff;}
+    100% {color:#1325AC;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {color:#05E4F2;}
+	20%  {color:#05E4F2;}
+    40%  {color:#F12C41;}
+    60%  {color:#1EBF16;}
+    80%  {color:#ffffff;}
+    100% {color:#1325AC;}
+	
+}
+
+/* Mozilla syntax */
+@-moz-keyframes myfirst {
+    0%   {color:#05E4F2;}
+	20%  {color:#05E4F2;}
+    40%  {color:#F12C41;}
+    60%  {color:#1EBF16;}
+    80%  {color:#ffffff;}
+    100% {color:#1325AC;}
+	
+}
+
+#intro p {
+	font-size: 200%;
+}
+
+#intro h1 {
+	font-size: 250%;
+}
+
+#intro h2 {
+	border: none;
+	font-size: 180%;
+}
+
+div#directions {
+	background-image: url("images/borderDirections.png");
+	opacity: 0.0;
+}
+
+/* */
+div#ourstory {
+	background-image: url("images/borderOurstory.png");
+	opacity: 0.0;
+	
+}
+
+/* */
+div#dayofthewedding {
+	background-image: url("images/borderDayofthewedding.png");
+	opacity: 0.0;
+	
+}
+
+/* */
+div#lodging {
+	background-image: url("images/borderLodging.png");
+	opacity: 0.0;	
+}
+
+/* */
+div#rsvp {
+	background-image: url("images/borderRsvp.png");
+	opacity: 0.0;
+	
+}
+
+/* */
+div#party {
+	background-image: url("images/borderParty.png");
+	opacity: 0.0;
+	
+}
+
+
+div#rightDisplay {
+	width: 200px;
+	
+	float:right;
+}
+
+img#lodging, img#party{
+	margin-left: 80px;
+}
+
+div#audio {
+	width: 100%;
+	padding-left: 0px;
+	margin-top: 15px;
+	
+	
+}
+
+div#bottomBar {
+	width: 960px;
+	height: 50px;
+	background-color: white;
+	background-image: url("images/bottomBarGreen.gif");
+	position: absolute;
+	bottom: 15px;
+	font-size: 115%;
+	font-weight: bold;
+	font-family: 'Rock Salt', cursive;
+	border-top: 2px groove white;
+	border-bottom: 2px groove white;
+}
+
+#bottomBar ul{
+	display: block;
+	
+	list-style: none;
+	width: 1060px;
+	margin: 0 auto;
+	padding: 0;
+	
+}
+
+#bottomBar ul li {
+	float: left;
+	margin-right: 25px;
+	margin-top: 5px;
+	padding: 0;
+	/*background-color: #E8F04D;*/
+	
+	
+	text-align: center;
+	
+	
+	
+}
+
+.fatBottom {
+	width: 280px;
+}
+
+li.white {
+	width: 100px;
+	color: white;
+	font-size: 140%;
+	
+	
+}
+
+p.clear {
+	clear: both;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}

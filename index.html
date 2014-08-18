@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brady & Ashley Lewis</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+        $(function() {
+			$("div#leftDisplay img, div#rightDisplay img").click(function(evt) {
+				var x = $(this).attr("id");
+				var divCurr = "div#" + x;
+				var iconCurr = "img#" + x;
+				var iconHigh = "images\/";
+				
+
+				$("#header div").css( "visibility", "hidden" );
+				//$("#mainDisplay img").attr("src", iconHigh + x + ".png");
+				$(divCurr).css( "visibility", "visible").animate({ opacity: 0.8 }, 1000);
+				$(iconCurr).attr("src", iconHigh + x + "High.png");
+				return false;
+			});
+			
+			
+				
+				
+				
+			
+			
+		});
+		
+		
+        
+	
+    </script>
+</head>
+<body>
+<div id="wrapper">
+
+<div id="outer">
+	
+<nav id="topNav">
+<p>"In my life I love you more" - The Beatles</p>
+</nav> <!-- topNav -->
+
+<div id="background">
+<!--
+<iframe src=" http://twresort.truelook.com/index.jsp?flash=yes&name=/twresort/webcam&theme=stream&mode=camera2&ptz=no&width=1&height=1&video=true" style="width:1260px;height:917px; border:1px solid;" scrolling="no" frameborder="0"></iframe></div>
+-->
+<img id="backgroundPic" src="images/background1.jpg" />
+
+</div><!-- background -->
+<div id="mainDisplay">
+
+<div id="leftDisplay">
+	<a href="directions.html"><img id="directions" class="gallery" src="images/directions.png" /></a>
+	<a href="ourstory.html"><img id="ourstory" class="gallery" src="images/ourstory.png" /></a>
+	<a href="dayofthewedding.html"><img id="dayofthewedding" class="gallery" src="images/dayofthewedding.png" /></a>
+</div> <!-- leftDisplay -->
+
+<div
+<div id="header">
+	<div id="intro">
+	<h1>Ashley Marie France</h1>
+	<p>shall wed</p>
+	<h1>Brady Lennon Lewis</h1>
+	<p>June 5th, 2015</p>
+	<h2>Treasure Island, FL</h2>
+	
+	</div>
+	<div id="directions">
+	<a href="directions.html"><img src="images/directionsHigh.png"></a>
+	<h2><a href="directions.html">Location</a></h2>
+	<p>Lookin' for a party?  Click the icon for directions to our shindig.</p>
+	</div>
+	<div id="ourstory" >
+	<a href="ourstory.html"><img src="images/ourstoryHigh.png"></a>
+	<h2><a href="ourstory.html">Our Story</a></h2>
+	<p>One guy.  One Girl.  Many years of memories.  Click the icon to relive the story.</p>
+	</div>
+	<div id="dayofthewedding">
+	<a href="dayofthewedding.html"><img src="images/dayoftheweddingHigh.png"></a>
+	<h2><a href="dayofthewedding.html">Day of the Wedding</a></h2>
+	<p>It's game time!  Click the icon for a wedding day itinerary.</p>
+	</div>
+	<div id="lodging">
+	<a href="lodging.html"><img src="images/lodgingHigh.png"></a>
+	<h2><a href="lodging.html">Lodging</a></h2>
+	<p>No beach bums allowed!  Click the icon to find respectable lodging.</p>
+	</div>
+	<div id="rsvp">
+	<a href="rsvp.html"><img src="images/rsvpHigh.png"></a>
+	<h2><a href="rsvp.html">RSVP</a></h2>
+	<p>Are you coming or what?  Click the icon to let us know.</p>
+	</div>
+	<div id="party">
+	<a href="party.html"><img src="images/partyHigh.png"></a>
+	<h2><a href="party.html">Wedding Party</a></h2>
+	<p>We've found the hottest guys and girls around.  Click the icon to see the starting lineup for this wedding.</p>
+	</div>
+	
+</div> <!-- header -->
+
+<div id="rightDisplay">
+	<a href="lodging.html"><img id="lodging" class="gallery" src="images/lodging.png" /></a>
+	<a href="rsvp.html"><img id="rsvp" class="gallery" src="images/rsvp.png" /></a>
+	<a href="party.html"><img id="party" class="gallery" src="images/party.png" /></a>
+
+</div> <!-- rightDisplay -->
+
+
+</div> <!-- mainDisplay -->
+
+
+
+<div id="bottomBar">
+	<ul>
+		<li class="white">||</li>
+		<li><img src="images/bridegroom.png" /></li>
+		<li class="fatBottom">Countdown to The Show</li>
+		<li class="fatBottom" id="countdown"></li>
+		<li><img src="images/birds.png" /></li>
+		<li class="white">||</li>
+	</ul>
+	
+</div> <!-- bottomBar -->
+
+
+
+
+</div> <!-- outer -->
+</div> <!-- wrapper -->
+
+
+
+
+
+
+
+
+ <script src="script.js"></script> 
+</body>
+
+
+
+
+<!-- <h1 id="countdown"></h1> Javascript Counter Handler -->
+	<!--
+	<div id="audio">
+		<audio loop="loop"  controls="controls">   
+		<source src="rude.mp3" />  
+		Your browser doesn't support the audio element.  Step it up brah!
+		</audio>
+		<img src="images/countdown.png" />
+	</div> <!-- audio -->
+
+
+
+
+</html>

@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url("images/sand2.jpg");
+	height: 100%;
+	font-family: 'Rock Salt', cursive;
+}
+div#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	min-width: 960px;
+	margin-bottom: 35px;
+	background-color: #4B4949;
+	
+	height: auto;
+}
+nav#navTop {
+	width: 960px;
+	margin-top: -25px;
+	color: #4B4949;
+	text-align: center;
+	transition: margin-top .5s, color 3.5s;
+	
+	
+}
+nav#navTop:hover {
+	margin-top: 0;
+	color: white;
+	
+}
+ul#topMenu{
+	margin: 0 auto;
+	width: 805px;
+	height: 115px;
+	border-bottom: 1px solid gray;
+	
+}
+
+#topMenu li {
+	list-style: none;
+	float: left;
+	padding: 10px;
+	padding-top: 0;
+	width: 95px;
+}
+#topMenu img {
+	border: 3px solid transparent;
+	border-radius: 500px;
+	transition: transform 2s, border 1s;
+	-webkit-transition: -webkit-transform 2s, border 1s;
+}
+
+#topMenu img:hover {
+	transform: rotate(-360deg);
+	-webkit-transform: rotate(-360deg);
+	border: 3px dashed yellow;
+	border-radius: 500px;
+}
+.hover {
+	text-align: center;
+}
+.hoverText {
+	display: block;
+	
+	padding-bottom: 13px;
+	font-size: .5em;
+}
+div#content {
+	
+	width: 960px;
+	height: auto;
+	clear: both;
+	text-align: center;
+	
+}
+h1#header {
+	display: block;
+	font-size: 2.5em;
+	color: #00ACD3;
+	padding-top: 25px;
+	margin: 5px auto;
+	margin-bottom: 15px;
+	width: 400px;
+	height: 150px;
+	background: url(images/headerbackground.png) no-repeat;
+	text-shadow: 4px 4px 2px white;
+	opacity: .9;
+	
+}
+div#contentHolder {
+	position: relative;
+	width: 960px;
+	height: 800px;
+	margin-top: 40px;
+}
+#contentHolder img {
+	border: 3px solid #FF7F7F;
+	-webkit-border-radius: 500px;
+	border-radius: 500px;
+}
+div#lindsay {
+	position: absolute;
+	/*background: url(images/partylindsay.png) no-repeat;*/
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#katie {
+	position: absolute;
+	/*background: url(images/partykatie.png) no-repeat;*/
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#steph {
+	position: absolute;
+	/*background: url(images/partysteph.png) no-repeat;*/
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#shawna {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#wendy {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#john {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#jeff {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#swoop {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#barrett {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+div#wade {
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	left: 50px;
+	opacity: 0.0;
+	cursor: pointer;
+}
+.frametext {
+	position: absolute;
+	width: 500px;
+	height: 497px;
+	top: 20px;
+	left: 230px;
+	padding-top: 150px;
+	color: white;
+	font-size: 1.4em;
+	background: url(images/partyframe.png) no-repeat;
+	border: 2px solid white;
+	opacity: 0.0;
+}
+.frametext img {
+	border: 5px dotted yellow;
+	border-color: red;
+	-webkit-border-radius: 500px;
+	border-radius: 500px;
+	padding: 5px;
+	-webkit-animation: myfirst 10s infinite;
+	-moz-animation: myfirst 10s infinite; /* Mozilla */
+    animation: myfirst 10s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {border-color:yellow; -webkit-transform: rotate(-360deg);}
+	25%  {border-color:green; -webkit-transform: rotate(-360deg);}
+	50%  {border-color:white;}
+    75%  {border-color:cyan;}
+    100% {color:yellow;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+     0%   {border-color:yellow; -webkit-transform: rotate(-360deg);}
+	25%  {border-color:green; -webkit-transform: rotate(-360deg);}
+	50%  {border-color:white;}
+    75%  {border-color:cyan;}
+    100% {color:yellow;}
+}
+
+/* Mozilla syntax */
+@-moz-keyframes myfirst {
+     0%   {border-color:yellow; -webkit-transform: rotate(-360deg);}
+	25%  {border-color:green; -webkit-transform: rotate(-360deg);}
+	50%  {border-color:white;}
+    75%  {border-color:cyan;}
+    100% {color:yellow;}
+}
+div#frameintro {
+	color: white;
+}
+
+
+
+
+footer {
+	background-color: #4B4949;
+	width: 960px;
+	height: 70px;
+	border-top: 1px solid gray;
+	margin-top: 30px;
+	clear: both;
+}
+footer ul {
+	display: block;
+	list-style: none;
+	width: 910px;
+	margin: 0 auto;
+}
+footer li {
+	float: left;
+	width: 130px;
+	text-align: center;
+	font-size: .55em;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-top: 35px;
+}
+
+footer a {
+	width: 130px;
+	color: white;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #00ACD3;
+	border-top: 1px solid #00ACD3;
+	border-bottom: 1px solid #00ACD3;
+}

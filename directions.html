@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Directions</title>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="directions.css">
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+    $(function(evt) {
+        $("a:has(img.gallery)").click(function() {
+            var largePath = $(this).attr("href");
+            var caption = $(this).attr("title");
+
+            $("#photo_large").attr({ src: largePath });
+            $("#caption1").text(caption);
+            return false;
+        });
+    });
+</script>
+</head>
+<body>
+<div id="wrapper">
+	<nav id="navTop">
+		<ul id="topMenu">
+			<li><div class="hover"><span class="hoverText">Location</span><a href="directions.html"><img src="images/directionstop.png"></a></div>
+			<li><div class="hover"><span class="hoverText">Our Story</span><a href="ourstory.html"><img src="images/ourstorytop.png"></a>
+			<li><div class="hover"><span class="hoverText">Day of the Wedding</span><a href="dayofthewedding.html"><img src="images/dayoftheweddingtop.png"></a>
+			<li><div class="hover"><span class="hoverText">Lodging</span><a href="lodging.html"><img src="images/lodgingtop.png"></a>
+			<li><div class="hover"><span class="hoverText">RSVP</span><a href="rsvp.html"><img src="images/rsvptop.png"></a>
+			<li><div class="hover"><span class="hoverText">Wedding Party</span><a href="party.html"><img src="images/partytop.png"></a>
+			<li><div class="hover"><span class="hoverText">Home</span><a href="index.html"><img src="images/hometop.png"></a>
+			
+		</ul>
+	</nav>
+	<div id="content">
+		<h1 id="header">Location</h1>
+		<div id="bigPic">
+			<img id="photo_large" name="photo_large" src="images/directions1.jpg" />
+			
+		</div><!-- bigPic -->
+		<div id="textBox">
+			The wedding will be held on the beach, directly behind the beach house located at:<br />
+			<span class="address">12458 1st St W<br />
+			Treasure Island, FL<br /></span>
+			The reception will be held at this beautiful beach house after the ceremony.
+			
+		</div> <!-- textBox -->
+		
+		<div id="photos">
+			<a href="images/directions1.jpg" title="Overhead map of the wedding site"><img src="images/directions1thumb.jpg" id="thumb1" class="gallery" /></a>
+			<a href="images/directions2.jpg" title="Overhead map of the wedding site"><img src="images/directions2thumb.jpg" id="thumb2" class="gallery" /></a>
+			<a href="images/directions3.jpg" title="Overhead map of the wedding site"><img src="images/directions3thumb.jpg" id="thumb3" class="gallery" /></a>
+			<a href="images/directions4.jpg" title="Overhead map of the wedding site"><img src="images/directions4thumb.jpg" id="thumb4" class="gallery" /></a>
+			<a href="images/directions5.jpg" title="Overhead map of the wedding site"><img src="images/directions5thumb.jpg" id="thumb5" class="gallery" /></a>
+
+		
+		</div> <!-- photos -->
+		
+		<footer>
+			<ul>
+				<li><a href="directions.html">Location</a></li>
+				<li><a href="ourstory.html">Our Story</a></li>
+				<li><a href="dayofthewedding.html">Day of the Wedding</a></li>
+				<li><a href="lodging.html">Lodging</a></li>
+				<li><a href="rsvp.html">RSVP</a></li>
+				<li><a href="party.html">Wedding Party</a></li>
+				<li><a href="index.html">Home</a></li>
+		</footer>
+		
+		
+	</div><!-- content-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div> <!-- wrapper -->
+</body>
+</html>

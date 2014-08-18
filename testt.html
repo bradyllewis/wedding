@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Brady & Ashley Lewis</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+        $(function() {
+			alert('why');
+			$("div#leftDisplay img, div#rightDisplay img").click(function(evt) {
+				var x = $(this).attr("id");
+				var divCurr = "div#" + x;
+				var iconCurr = "img#" + x;
+				var iconHigh = "images\/";
+				
+
+				$("#header div").css( "visibility", "hidden" );
+				//$("#mainDisplay img").attr("src", iconHigh + x + ".png");
+				$(divCurr).css( "visibility", "visible").animate({ opacity: 0.8 }, 1000);
+				$(iconCurr).attr("src", iconHigh + x + "High.png");
+				return false;
+			});
+			
+			
+				
+				
+				
+			
+			
+		});
+		
+		
+        
+	
+    </script>
+</head>
+<body>
+he
+</body>
+</html>

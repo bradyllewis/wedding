@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+section,article {
+	display: block;
+}
+body {
+	background-image: url("images/sand2.jpg");
+	height: 100%;
+	font-family: 'Rock Salt', cursive;
+}
+div#wrapper {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+	min-width: 960px;
+	margin-bottom: 35px;
+	background-color: #4B4949;
+	
+	height: auto;
+}
+nav#navTop {
+	width: 960px;
+	margin-top: -25px;
+	color: #4B4949;
+	text-align: center;
+	-webkit-transition: margin-top .5s, color 3.5s;
+	transition: margin-top .5s, color 3.5s;
+	
+	
+}
+nav#navTop:hover {
+	margin-top: 0;
+	color: white;
+	
+}
+ul#topMenu{
+	margin: 0 auto;
+	width: 805px;
+	height: 115px;
+	border-bottom: 1px solid gray;
+	
+}
+
+#topMenu li {
+	list-style: none;
+	float: left;
+	padding: 10px;
+	padding-top: 0;
+	width: 95px;
+}
+#topMenu img {
+	border: 3px solid transparent;
+	border-radius: 500px;
+	transition: transform 2s, border 1s;
+	-webkit-transition: -webkit-transform 2s, border 1s;
+}
+
+#topMenu img:hover {
+	transform: rotate(-360deg);
+	-webkit-transform: rotate(-360deg);
+	border: 3px dashed yellow;
+	border-radius: 500px;
+}
+.hover {
+	text-align: center;
+}
+.hoverText {
+	display: block;
+	
+	padding-bottom: 13px;
+	font-size: .5em;
+}
+div#content {
+	position: relative;
+	width: 960px;
+	height: 750px;
+	clear: both;
+	text-align: center;
+	background: url(images/waveborder.png) no-repeat bottom;
+	
+}
+h1#header {
+	display: block;
+	font-size: 3em;
+	color: #00ACD3;
+	margin: 5px auto;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	width: 400px;
+	height: 150px;
+	background: url(images/headerbackground.png) no-repeat;
+	text-shadow: 4px 4px 2px white;
+	opacity: .9;
+	
+}
+h1#loading {
+	color: white;
+	margin-top: 50px;
+}
+div#brady {
+	position: absolute;
+	left: -525px;
+	height: 300px;
+	width: 300px;
+	background: url(images/bradycircle1.png) no-repeat;
+	border: 10px solid transparent;
+	-webkit-border-radius: 500px;
+	border-radius: 500px;
+	
+}
+div#ashley {
+	position: absolute;
+	right: -525px;
+	height: 300px;
+	width: 300px;
+	background: url(images/ashleycircle1.png) no-repeat;
+	border: 10px solid transparent;
+	-webkit-border-radius: 500px;
+	border-radius: 500px;
+}
+div#greenTalk {
+	width: 250px;
+	height: 198px;
+	position: absolute;
+	padding-top: 30px;
+	margin: 0;
+	background: url(images/talkbubblegreen.png) no-repeat;
+	top: 180px;
+	left: 500px;
+	color: white;
+	font-size: 2em;
+	opacity: 0.0;
+	
+}
+div#pinkTalk {
+	width: 250px;
+	height: 198px;
+	padding-top: 30px;
+	margin: 0;
+	position: absolute;
+	background: url(images/talkbubblepink.png) no-repeat;
+	top: 180px;
+	right: 600px;
+	color: white;
+	font-size: 2em;
+	opacity: 0.0;
+}
+div#believe {
+	position: absolute;
+	color: white;
+	top: 160px;
+	left: 200px;
+	font-size: 3.2em;
+	opacity: 0.0;
+}
+div#hearts {
+	position: absolute;
+	color: #00A7E9;
+	font-size: 3.5em;
+	text-align: center;
+	background: url(images/heartborder.png) no-repeat;
+	top: 450px;
+	left: 30px;
+	width: 900px;
+	height: 132px;
+	text-shadow: 0px 0px 4px black;
+	opacity: 0.0;
+}
+section#section1 {
+	width: 960px;
+	height: 800px;
+	margin: 0 auto;
+	padding-top: 40px;
+	background: #00A7E9 url(images/waveborderdown.png) no-repeat bottom;
+	
+}
+article#ourstorytype{
+	position: relative;
+	width: 600px;
+	height: 744px;
+	background: url(images/ourstorytype.gif) no-repeat 0px 20px;
+	margin: 0 auto;
+	border: 10px dotted #F0DC6A;
+}
+
+section#section2 {
+	width: 960px;
+	height: 950px;
+	margin: 0 auto;
+	padding-top: 40px;
+	background: #F0DC6A url(images/waveborderdown.png) no-repeat top;
+	
+}
+#section2 h1 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+	width: 960px;
+	text-align: center;
+	font-size: 2.5em;
+}
+div#bigPic {
+	width: 750px;
+	height: 550px;
+	margin: 0 auto;
+	
+}
+#bigPic img {
+	border: 4px solid #00A7E9;
+}
+div#photos {
+	margin-left: 60px;
+}
+#photos img {
+	border: 2px solid white;
+}
+section#section3 {
+	width: 960px;
+	height: 78px;
+	margin: 0 auto;
+	background: #F0DC6A url(images/waveborder.png) no-repeat top;
+	
+}
+footer {
+	background-color: #00A7E9;
+	width: 960px;
+	height: 70px;
+	border-top: 1px solid gray;
+	
+	
+}
+footer ul {
+	display: block;
+	list-style: none;
+	width: 910px;
+	margin: 0 auto;
+}
+footer li {
+	float: left;
+	width: 130px;
+	text-align: center;
+	font-size: .55em;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	margin-top: 35px;
+}
+
+footer a {
+	width: 130px;
+	color: white;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #F0DC6A;
+	border-top: 1px solid #F0DC6A;
+	border-bottom: 1px solid #F0DC6A;
+}
